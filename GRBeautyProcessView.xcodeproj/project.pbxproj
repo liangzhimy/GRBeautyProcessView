@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500407001E0A779A008CECBB /* GRBeautyProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500406FF1E0A779A008CECBB /* GRBeautyProcessView.m */; };
+		500407021E0A77A3008CECBB /* GRBeautyProcessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500407011E0A77A3008CECBB /* GRBeautyProcessView.xib */; };
+		503F925C1E091B3600550B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F925B1E091B3600550B6F /* main.m */; };
+		503F925F1E091B3600550B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F925E1E091B3600550B6F /* AppDelegate.m */; };
+		503F92621E091B3600550B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F92611E091B3600550B6F /* ViewController.m */; };
+		503F92651E091B3600550B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503F92631E091B3600550B6F /* Main.storyboard */; };
+		503F92671E091B3600550B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503F92661E091B3600550B6F /* Assets.xcassets */; };
+		503F926A1E091B3700550B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503F92681E091B3700550B6F /* LaunchScreen.storyboard */; };
+		503F92771E0925AB00550B6F /* GRDotProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F92761E0925AB00550B6F /* GRDotProcessView.m */; };
+		503F927E1E092FAF00550B6F /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503F927D1E092FAF00550B6F /* images.xcassets */; };
+		503F92811E093EA900550B6F /* GRLineProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F92801E093EA900550B6F /* GRLineProcessView.m */; };
+		503F92841E0A2D3100550B6F /* GRDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F92831E0A2D3100550B6F /* GRDotView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		500406FE1E0A779A008CECBB /* GRBeautyProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRBeautyProcessView.h; sourceTree = "<group>"; };
+		500406FF1E0A779A008CECBB /* GRBeautyProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRBeautyProcessView.m; sourceTree = "<group>"; };
+		500407011E0A77A3008CECBB /* GRBeautyProcessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRBeautyProcessView.xib; sourceTree = "<group>"; };
+		503F92571E091B3600550B6F /* GRBeautyProcessView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRBeautyProcessView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503F925B1E091B3600550B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		503F925D1E091B3600550B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		503F925E1E091B3600550B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		503F92601E091B3600550B6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		503F92611E091B3600550B6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		503F92641E091B3600550B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		503F92661E091B3600550B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		503F92691E091B3700550B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		503F926B1E091B3700550B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503F92751E0925AB00550B6F /* GRDotProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDotProcessView.h; sourceTree = "<group>"; };
+		503F92761E0925AB00550B6F /* GRDotProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDotProcessView.m; sourceTree = "<group>"; };
+		503F927C1E092BCD00550B6F /* GRMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMacros.h; sourceTree = "<group>"; };
+		503F927D1E092FAF00550B6F /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		503F927F1E093EA900550B6F /* GRLineProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRLineProcessView.h; sourceTree = "<group>"; };
+		503F92801E093EA900550B6F /* GRLineProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRLineProcessView.m; sourceTree = "<group>"; };
+		503F92821E0A2D3100550B6F /* GRDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDotView.h; sourceTree = "<group>"; };
+		503F92831E0A2D3100550B6F /* GRDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDotView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503F92541E091B3600550B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503F924E1E091B3600550B6F = {
+			isa = PBXGroup;
+			children = (
+				503F92591E091B3600550B6F /* GRBeautyProcessView */,
+				503F92581E091B3600550B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		503F92581E091B3600550B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503F92571E091B3600550B6F /* GRBeautyProcessView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503F92591E091B3600550B6F /* GRBeautyProcessView */ = {
+			isa = PBXGroup;
+			children = (
+				503F92741E09259C00550B6F /* GRBeautyProcessView */,
+				503F925D1E091B3600550B6F /* AppDelegate.h */,
+				503F925E1E091B3600550B6F /* AppDelegate.m */,
+				503F92601E091B3600550B6F /* ViewController.h */,
+				503F92611E091B3600550B6F /* ViewController.m */,
+				503F927C1E092BCD00550B6F /* GRMacros.h */,
+				503F92631E091B3600550B6F /* Main.storyboard */,
+				503F92661E091B3600550B6F /* Assets.xcassets */,
+				503F92681E091B3700550B6F /* LaunchScreen.storyboard */,
+				503F926B1E091B3700550B6F /* Info.plist */,
+				503F925A1E091B3600550B6F /* Supporting Files */,
+			);
+			path = GRBeautyProcessView;
+			sourceTree = "<group>";
+		};
+		503F925A1E091B3600550B6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				503F925B1E091B3600550B6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		503F92741E09259C00550B6F /* GRBeautyProcessView */ = {
+			isa = PBXGroup;
+			children = (
+				503F92751E0925AB00550B6F /* GRDotProcessView.h */,
+				503F92761E0925AB00550B6F /* GRDotProcessView.m */,
+				503F927D1E092FAF00550B6F /* images.xcassets */,
+				503F927F1E093EA900550B6F /* GRLineProcessView.h */,
+				503F92801E093EA900550B6F /* GRLineProcessView.m */,
+				503F92821E0A2D3100550B6F /* GRDotView.h */,
+				503F92831E0A2D3100550B6F /* GRDotView.m */,
+				500406FE1E0A779A008CECBB /* GRBeautyProcessView.h */,
+				500406FF1E0A779A008CECBB /* GRBeautyProcessView.m */,
+				500407011E0A77A3008CECBB /* GRBeautyProcessView.xib */,
+			);
+			path = GRBeautyProcessView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503F92561E091B3600550B6F /* GRBeautyProcessView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503F926E1E091B3700550B6F /* Build configuration list for PBXNativeTarget "GRBeautyProcessView" */;
+			buildPhases = (
+				503F92531E091B3600550B6F /* Sources */,
+				503F92541E091B3600550B6F /* Frameworks */,
+				503F92551E091B3600550B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRBeautyProcessView;
+			productName = GRBeautyProcessView;
+			productReference = 503F92571E091B3600550B6F /* GRBeautyProcessView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503F924F1E091B3600550B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = liangzhimy;
+				TargetAttributes = {
+					503F92561E091B3600550B6F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LR2DH4466E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 503F92521E091B3600550B6F /* Build configuration list for PBXProject "GRBeautyProcessView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503F924E1E091B3600550B6F;
+			productRefGroup = 503F92581E091B3600550B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503F92561E091B3600550B6F /* GRBeautyProcessView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503F92551E091B3600550B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503F926A1E091B3700550B6F /* LaunchScreen.storyboard in Resources */,
+				500407021E0A77A3008CECBB /* GRBeautyProcessView.xib in Resources */,
+				503F92671E091B3600550B6F /* Assets.xcassets in Resources */,
+				503F92651E091B3600550B6F /* Main.storyboard in Resources */,
+				503F927E1E092FAF00550B6F /* images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503F92531E091B3600550B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500407001E0A779A008CECBB /* GRBeautyProcessView.m in Sources */,
+				503F92621E091B3600550B6F /* ViewController.m in Sources */,
+				503F925F1E091B3600550B6F /* AppDelegate.m in Sources */,
+				503F925C1E091B3600550B6F /* main.m in Sources */,
+				503F92771E0925AB00550B6F /* GRDotProcessView.m in Sources */,
+				503F92811E093EA900550B6F /* GRLineProcessView.m in Sources */,
+				503F92841E0A2D3100550B6F /* GRDotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		503F92631E091B3600550B6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503F92641E091B3600550B6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		503F92681E091B3700550B6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503F92691E091B3700550B6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		503F926C1E091B3700550B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		503F926D1E091B3700550B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503F926F1E091B3700550B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LR2DH4466E;
+				INFOPLIST_FILE = GRBeautyProcessView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.GRBeautyProcessView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		503F92701E091B3700550B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LR2DH4466E;
+				INFOPLIST_FILE = GRBeautyProcessView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.GRBeautyProcessView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503F92521E091B3600550B6F /* Build configuration list for PBXProject "GRBeautyProcessView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503F926C1E091B3700550B6F /* Debug */,
+				503F926D1E091B3700550B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503F926E1E091B3700550B6F /* Build configuration list for PBXNativeTarget "GRBeautyProcessView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503F926F1E091B3700550B6F /* Debug */,
+				503F92701E091B3700550B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503F924F1E091B3600550B6F /* Project object */;
+}

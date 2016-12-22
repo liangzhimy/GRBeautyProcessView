@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GRBeautyProcessView">
+            <rect key="frame" x="0.0" y="0.0" width="563" height="83"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <userGuides>
+                <userLayoutGuide location="95" affinity="minY"/>
+            </userGuides>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QkA-e9-8Yx" userLabel="containerView">
+                    <rect key="frame" x="0.0" y="0.0" width="563" height="83"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beautify" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fc3-uT-XQg">
+                            <rect key="frame" x="0.0" y="68" width="563" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="vM8-19-Bix"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w2W-Pv-ibW" userLabel="numView">
+                            <rect key="frame" x="0.0" y="4" width="25" height="23"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 7" translatesAutoresizingMaskIntoConstraints="NO" id="GkN-jT-OoP">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="23"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzS-7e-jQg">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="huo-8o-Wr5"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="GkN-jT-OoP" secondAttribute="bottom" id="38M-nj-wAe"/>
+                                <constraint firstItem="BzS-7e-jQg" firstAttribute="top" secondItem="w2W-Pv-ibW" secondAttribute="top" id="7ZO-Hk-JiD"/>
+                                <constraint firstItem="BzS-7e-jQg" firstAttribute="leading" secondItem="w2W-Pv-ibW" secondAttribute="leading" id="WW5-xe-ohU" userLabel="I"/>
+                                <constraint firstAttribute="height" constant="23" id="ZPD-Y1-mHF"/>
+                                <constraint firstItem="GkN-jT-OoP" firstAttribute="leading" secondItem="w2W-Pv-ibW" secondAttribute="leading" id="kgO-lA-hLH"/>
+                                <constraint firstAttribute="trailing" secondItem="GkN-jT-OoP" secondAttribute="trailing" id="l7N-av-owd"/>
+                                <constraint firstAttribute="trailing" secondItem="BzS-7e-jQg" secondAttribute="trailing" id="oBy-hr-Iiw"/>
+                                <constraint firstAttribute="width" constant="25" id="tAo-B4-87K"/>
+                                <constraint firstItem="GkN-jT-OoP" firstAttribute="top" secondItem="w2W-Pv-ibW" secondAttribute="top" id="vRK-Ug-rtA"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xpZ-qS-c8g">
+                            <rect key="frame" x="10" y="37" width="543" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="8bD-c0-tVP"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="fc3-uT-XQg" secondAttribute="bottom" id="38U-pN-eH8"/>
+                        <constraint firstItem="xpZ-qS-c8g" firstAttribute="leading" secondItem="QkA-e9-8Yx" secondAttribute="leading" constant="10" id="6Lx-Ci-aY7"/>
+                        <constraint firstAttribute="trailing" secondItem="xpZ-qS-c8g" secondAttribute="trailing" constant="10" id="8C6-7W-dQs"/>
+                        <constraint firstItem="fc3-uT-XQg" firstAttribute="leading" secondItem="QkA-e9-8Yx" secondAttribute="leading" id="DGw-zF-wtQ"/>
+                        <constraint firstItem="xpZ-qS-c8g" firstAttribute="top" secondItem="w2W-Pv-ibW" secondAttribute="bottom" constant="10" id="LUg-4A-tEk"/>
+                        <constraint firstItem="fc3-uT-XQg" firstAttribute="top" secondItem="xpZ-qS-c8g" secondAttribute="bottom" constant="13" id="NxU-Lq-jbE"/>
+                        <constraint firstAttribute="trailing" secondItem="fc3-uT-XQg" secondAttribute="trailing" id="g3T-Ze-7ih"/>
+                        <constraint firstItem="w2W-Pv-ibW" firstAttribute="leading" secondItem="QkA-e9-8Yx" secondAttribute="leading" id="oJr-HD-Klg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QkA-e9-8Yx" secondAttribute="trailing" id="VEy-tZ-iZc"/>
+                <constraint firstItem="QkA-e9-8Yx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YMU-Fq-7dj"/>
+                <constraint firstItem="QkA-e9-8Yx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="w3U-P7-8p0"/>
+                <constraint firstAttribute="bottom" secondItem="QkA-e9-8Yx" secondAttribute="bottom" id="yI0-X9-qBV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="beautyContainerView" destination="QkA-e9-8Yx" id="dfW-aN-ryg"/>
+                <outlet property="beautyLabel" destination="fc3-uT-XQg" id="kP1-9A-WoM"/>
+                <outlet property="dotprocessContainerView" destination="xpZ-qS-c8g" id="Yvi-BI-gap"/>
+                <outlet property="leaderConstraint" destination="oJr-HD-Klg" id="Gmi-3h-xoi"/>
+                <outlet property="numberLabel" destination="BzS-7e-jQg" id="eFB-Tq-Uxo"/>
+                <outlet property="numberView" destination="w2W-Pv-ibW" id="NNN-P4-l0D"/>
+            </connections>
+            <point key="canvasLocation" x="111.5" y="-324.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group 7" width="26" height="23"/>
+    </resources>
+</document>
