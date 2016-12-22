@@ -2,7 +2,7 @@
  a filter view control 
 
 ## screen 
-// ![image]()
+![image](https://github.com/liangzhimy/GRBeautyProcessView/raw/master/screen/1.png)
 
 
 ## How to use 
