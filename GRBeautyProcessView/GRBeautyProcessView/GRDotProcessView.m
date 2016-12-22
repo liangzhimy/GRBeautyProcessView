@@ -17,7 +17,9 @@ static const CGFloat __GRLineViewRight = 10.f;
 static const CGFloat __GRLineHeight = 1.f;
 static const CGFloat __GRDotItemViewHalfWidth = 4.f;
 static const CGFloat __GRDotViewWidthHeight = 8.f;
+static const CGFloat __GRBackgroundViewAlpha = 0.52f;
 
+#define __GRBackgroundColor 0x4A4A4A
 #define __GRLineColor 0xFFC208
 
 @interface GRDotProcessView () <GRLineProcessViewDelegate> {
@@ -71,11 +73,12 @@ static const CGFloat __GRDotViewWidthHeight = 8.f;
     return _dotLineView;
 } 
 
+
 - (void)__configBackgroundView {
     UIView *backgroundView = [[UIView alloc] initWithFrame:self.bounds];
     backgroundView.layer.cornerRadius = self.bounds.size.height * .5;
-    backgroundView.layer.backgroundColor = UIColorFromRGBWithAlpha(0x4A4A4A, 1.0).CGColor;
-    backgroundView.alpha = 0.52f;
+    backgroundView.layer.backgroundColor = UIColorFromRGBWithAlpha(__GRBackgroundColor, 1.0).CGColor;
+    backgroundView.alpha = __GRBackgroundViewAlpha;
     self.backgroundView = backgroundView; 
     [self addSubview:backgroundView];
 }

@@ -9,6 +9,7 @@
 #import "GRLineProcessView.h"
 #import "GRMacros.h"
 
+static const CGFloat __GRAnimateDuration = 0.5f;
 #define __GRLineColor 0xFFC208
 
 @interface GRLineProcessView () {
@@ -88,7 +89,7 @@
         
         [self.delegate lineProcessView:self finishMoveToIndex:index];
     } else {
-        [UIView animateWithDuration:0.5 animations:^{
+        [UIView animateWithDuration:__GRAnimateDuration animations:^{
             self.processLayer.frame = CGRectMake(0, 0, currentWidth, self.bounds.size.height);
         } completion:^(BOOL finished) {
             if (!finished) {
