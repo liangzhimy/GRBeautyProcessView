@@ -55,6 +55,9 @@ static const CGFloat __GRDotViewHalfWidht = 4.f;
     panGesture.maximumNumberOfTouches = 1;
     [self addGestureRecognizer:panGesture];
     
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    [self addGestureRecognizer:tapGesture];
+    
     [self.dotprocessContainerView layoutIfNeeded];
     [self.dotprocessContainerView addSubview:self.dotProcessView];
     self.dotProcessView.frame = self.dotprocessContainerView.bounds;
@@ -139,9 +142,14 @@ static const CGFloat __GRDotViewHalfWidht = 4.f;
     }
 }
 
-- (void)moveToIndex:(NSInteger)index {
+- (void)__moveToIndex:(NSInteger)index {
     [self.dotProcessView moveToIndex:index animation:NO];
 }
+
+- (void)tap:(UIGestureRecognizer *)gesture {
+    [self __showContainerView:nil];
+    [self performSelector:@selector(__hideContainerView:) withObject:nil afterDelay:__GRHiddenDelay];
+} 
 
 - (void)pan:(UIGestureRecognizer *)gesture {
     static NSTimeInterval lastGestureTimeInterval = 0.f;
@@ -198,7 +206,7 @@ static const CGFloat __GRDotViewHalfWidht = 4.f;
 #pragma mark - GRDotProcessViewDelegate
 - (void)dotProcessView:(GRDotProcessView *)dotProcessView clickIndex:(NSInteger)index {
     [self __showContainerView:nil];
-    [self moveToIndex:index];
+    [self __moveToIndex:index];
     [self performSelector:@selector(__hideContainerView:) withObject:nil afterDelay:__GRHiddenDelay];
 }
 
